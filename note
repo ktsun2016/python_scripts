@@ -1,0 +1,52 @@
+  575  mkdir git_folder
+  576  cd git_folder/
+  577  show firmware upgrade status 
+  578  ssh-keygen -t rsa -b 4096 -C "kuotungsun@gmail.com"
+  579  more /Users/ktsun/.ssh/id_rsa_google
+  580  eval "$(ssh-agent -s)"
+  581  vi ~/.ssh/config
+  582  ssh-keygen -t rsa -b 4096 -C "kuotungsun@gmail.com"
+  583  vi ~/.ssh/config
+  584  ssh-add -K ~/.ssh/id_rsa_google
+  585  more  ~/.ssh/id_rsa_google
+  586  more  ~/.ssh/id_rsa
+  587  cd /.ssh
+  588  cd 
+  589  cd .ssh
+  590  ls
+  591  pbcopy
+  592  pbcopy < ~/.ssh/id_rsa_google.pub 
+  593  vi kk
+  594  cd
+  595  cd Documents/python/
+  596  ls
+  597  ls -altr
+  598  cp pbr_pg_traffic_v1.py /Users/ktsun/git_folder/
+  599  cd /Users/ktsun/git_folder/
+  600  ls
+  601  mkdir python_scripts
+  602  mv pbr_pg_traffic_v1.py python_scripts/
+  603  ls
+  604  cd python_scripts/
+  605  git status
+  606  git clone https://github.com/ktsun2016/python_scripts.git
+  607  ls
+  608  pwd
+  609  ls
+  610  cd python_scripts/
+  611  ls
+  612  cd ..
+  613  ls
+  614  mv pbr_pg_traffic_v1.py python_scripts/
+  615  ls
+  616  cd python_scripts/
+  617  ls
+  618  git status
+  619  git add pbr_pg_traffic_v1.py 
+  620  git status
+  621  git commit -m "pbr pref-grp traffic"
+  622  git push
+  623  history
+KTSUN-M-26UB:python_scripts ktsun$ ls
+README.md		pbr_pg_traffic_v1.py
+KTSUN-M-26UB:python_scripts ktsun$ 
