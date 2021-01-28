@@ -1,9 +1,4 @@
 def check_pair(s):
-    if len(s)%2 != 0:
-        return False
-    else:
-        pass
-    
     s1=list(s)
     check_list=[['(', ')'], ['[', ']'], ['{', '}'] ]
     for i in range(len(check_list)):
