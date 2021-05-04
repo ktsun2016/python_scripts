@@ -1,3 +1,4 @@
+# comment
 def ip_summary(ip1, ip2):
     ip1_bin=['{:08b}'.format(int(i)) for i in ip1.split('.')]
     ip2_bin=['{:08b}'.format(int(i)) for i in ip2.split('.')]
